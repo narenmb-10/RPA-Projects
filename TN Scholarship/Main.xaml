@@ -1,0 +1,239 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="940,1784" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="70">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="25">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="475.2,1719.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: TNSSP" sap:VirtualizedContainerService.HintSize="433.6,2318.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b917521f-1778-4c53-88a3-307e7ebbc3c1" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,2101.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="aadhar" />
+              <Variable x:TypeArguments="x:String" Name="otp" />
+              <Variable x:TypeArguments="sd:DataTable" Name="fees" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'H5'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bdc98d35-eb5b-4344-a116-eb5d76b5dd53" InformativeScreenshot="ae180449b303d03fa8668bebd7914c32" Selector="&lt;webctrl tag='H5' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="333.6,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your aadhar number" Title="aadhar">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[aadhar]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[aadhar]">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9bd6a445-c64a-44f0-834c-ab3909cc7dac" InformativeScreenshot="92b5a21d40bc0e5da612d284ed5e2275" Selector="&lt;webctrl tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3993b8d5-963a-4ac0-9671-bd07f9c68c10" InformativeScreenshot="8aaf946845b3109627c7c4681aeca112" Selector="&lt;webctrl tag='BUTTON' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="333.6,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter the otp" Title="otp">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[otp]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[otp]">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8f7091ed-bd5d-4518-b6ad-1c908dbf652f" InformativeScreenshot="66b06e43dff4be7fc1a881c086a65ab0" Selector="&lt;webctrl tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="86202ddf-41df-4839-bc8e-60ff76d764c4" InformativeScreenshot="4d575614eea7cabb781deef44f647f27" Selector="&lt;webctrl tag='BUTTON' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  #/student/MyScholars...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b1bd7fe2-22eb-4b20-8649-36cee5f24a8c" InformativeScreenshot="3f63494284f84773979fe856d2d2b0c0" Selector="&lt;webctrl aaname='My Scholarships' tag='A' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[fees]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-0' ReferenceIdx='0' Name='Column-0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-1' ReferenceIdx='1' Name='Column-1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-2' ReferenceIdx='2' Name='Column-2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-3' ReferenceIdx='3' Name='Column-3'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-4' ReferenceIdx='4' Name='Column-4'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-5' ReferenceIdx='5' Name='Column-5'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Column-0' attr='text' /&gt;&lt;column name='Column-1' attr='text' /&gt;&lt;column name='Column-2' attr='text' /&gt;&lt;column name='Column-3' attr='text' /&gt;&lt;column name='Column-4' attr='text' /&gt;&lt;column name='Column-5' attr='text' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="0" ScopeIdentifier="b917521f-1778-4c53-88a3-307e7ebbc3c1" Version="V1">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="400, 529, 1458, 153" FriendlyName="'Exam FeeTuition'" FullSelectorArgument="&lt;webctrl idx='2' tag='TABLE' /&gt;" Guid="8fdc1b03-b23a-444f-88b7-f05ee968b93b" InformativeScreenshot="148d0f10c5235bae4f940d5d73d02e50.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TNSSP' /&gt;" SearchSteps="Selector" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange AddHeaders="False" DataTable="[fees]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="333.6,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="N:\Project rpa\sample.xlsx" />
+            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Check the info" DisplayName="Send SMTP Mail Message" Email="211701005@rajalakshmi.edu.in" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,151.2" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="csdrec" Port="993" SecureConnection="Auto" Server="imap.gmail.com" Subject="Scholarship amount details" To="211701061@rajalakshmi.edu.in">
+              <ui:SendMail.Files>
+                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+              </ui:SendMail.Files>
+            </ui:SendMail>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="0915408e2cffe2549fdd3c91d1779e2e.png" Selector="&lt;html app='chrome.exe' title='TNSSP'/&gt;" Url="https://ssp.tn.gov.in/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
